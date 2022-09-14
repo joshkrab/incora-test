@@ -6,6 +6,7 @@
 
 body {
 	width: 100%;
+	padding: 20px 30px;
 }
 
 #root {
@@ -14,4 +15,27 @@ body {
 
 .app {
 	max-width: 1100px;
+	text-align: center;
+	margin: 0 auto;
+}
+
+.user {
+	padding: 10px;
+	display:flex;
+	align-items: center;
+	justify-content:space-between;
+}
+
+.buttons {
+	display: flex;
+	align-items: center;
+	justify-content:space-between;
+}
+
+.post {
+	padding: 14px;
+}
+
+.post h2, .post p{
+	margin:16px 0px;
 }
