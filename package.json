@@ -1,5 +1,6 @@
 {
   "name": "incora-test",
+  "homepage": "https://joshkrab.github.io/incora-test/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -29,6 +30,8 @@
     "eslint:fix": "eslint --fix --ext .js --ext .jsx src",
     "test:nowatch": "react-scripts test --watchAll=false",
     "prepare": "husky install",
+    "predeploy": "npm run build",
+		"deploy": "gh-pages -d build",
     "prepublish": "npm run eslint:fix"
   },
   "eslintConfig": {
@@ -49,10 +52,11 @@
       "last 1 safari version"
     ]
   },
-    "devDependencies": {
-      "eslint-config-prettier": "^8.5.0",
-      "eslint-plugin-prettier": "^4.2.1",
-      "husky": "^8.0.1",
-      "prettier": "^2.7.1"
+  "devDependencies": {
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "gh-pages": "^4.0.0",
+    "husky": "^8.0.1",
+    "prettier": "^2.7.1"
   }
 }
