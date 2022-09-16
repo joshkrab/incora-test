@@ -11,7 +11,7 @@ export const postsReducer = (state = defaultState, action) => {
 			return { ...state, posts: [...action.payload] };
 
 		case ADD_POST:
-			return { ...state, posts: [...state.posts, action.payload] };
+			return { ...state, posts: [action.payload, ...state.posts] };
 
 		default:
 			return state;
