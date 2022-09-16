@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/incora-test/static/css/main.ef1bf80c.css",
-    "main.js": "/incora-test/static/js/main.141b407d.js",
+    "main.js": "/incora-test/static/js/main.4e27f589.js",
     "index.html": "/incora-test/index.html",
     "main.ef1bf80c.css.map": "/incora-test/static/css/main.ef1bf80c.css.map",
-    "main.141b407d.js.map": "/incora-test/static/js/main.141b407d.js.map"
+    "main.4e27f589.js.map": "/incora-test/static/js/main.4e27f589.js.map"
   },
   "entrypoints": [
     "static/css/main.ef1bf80c.css",
-    "static/js/main.141b407d.js"
+    "static/js/main.4e27f589.js"
   ]
 }
